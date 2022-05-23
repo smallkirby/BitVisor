@@ -866,13 +866,18 @@ do_xsetbv (void)
 		add_ip ();
 }
 
+/*
+	Handle VM Exit due to EPT_VIOLATION.
+*/
 static void
 do_ept_violation (void)
 {
 	ulong eqe;
 	u64 gp;
 
+	// check if the access which causes this violation is write or not.
 	asm_vmread (VMCS_EXIT_QUALIFICATION, &eqe);
+	// read gphys addr to which access this violation is caused
 	asm_vmread64 (VMCS_GUEST_PHYSICAL_ADDRESS, &gp);
 	vt_paging_npf (!!(eqe & EPT_VIOLATION_EXIT_QUAL_WRITE_BIT), gp);
 }
@@ -1038,6 +1043,9 @@ do_vmresume (void)
 		vt_emul_vmresume ();
 }
 
+/*
+	Handle VM Exit based on its reason.
+*/
 static void
 vt__exit_reason (void)
 {
@@ -1095,6 +1103,7 @@ vt__exit_reason (void)
 	case EXIT_REASON_XSETBV:
 		do_xsetbv ();
 		break;
+	// EPT violation
 	case EXIT_REASON_EPT_VIOLATION:
 		do_ept_violation ();
 		break;

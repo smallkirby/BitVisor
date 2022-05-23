@@ -137,6 +137,12 @@ vt_paging_invalidate (ulong addr)
 		cpu_mmu_spt_invalidate (addr);
 }
 
+/*
+	Abstraction layer to handle EPT violation.
+
+	@write: whether this violation is caused by write access
+	@gphys: gphys addr to which access this violation is caused
+*/
 void
 vt_paging_npf (bool write, u64 gphys)
 {
