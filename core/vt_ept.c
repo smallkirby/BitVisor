@@ -359,7 +359,7 @@ vt_ept_violation (bool write, u64 gphys)
 	mmio_lock ();
 	if (vt_ept_level (ept, gphys) > 0 && // page walk is incomplete or 2MB walk is complete
 	    !mmio_range (gphys & ~PAGESIZE2M_MASK, PAGESIZE2M) && // ???
-	    !vt_ept_map_2mpage (ept, gphys)) // 2MB page was **NOT** mapped for this violation
+	    !vt_ept_map_2mpage (ept, gphys)) // 2MB page was **newly** mapped for this violation
 		;
 	else if (!mmio_access_page (gphys, true))
 		vt_ept_map_page (ept, write, gphys); // maps 4K page
