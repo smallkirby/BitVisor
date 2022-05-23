@@ -1,0 +1,12 @@
+*.d
+*.o
+*.a
+*.flags
+*.depends
+*.bin
+*.debug
+*.objects
+*.elf
+*.map
+*.bin.s
+*.boptions

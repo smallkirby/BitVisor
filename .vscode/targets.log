@@ -1,0 +1,527 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Mon May 23 11:12:22 2022
+
+# Variables
+
+# environment
+TMUX_PANE = %9
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+NO_AT_BRIDGE = 1
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+SSH_AGENT_LAUNCHER = gnome-keyring
+# makefile (from 'Makefile.common', line 4)
+AR = ar
+# makefile (from 'Makefile.common', line 17)
+outa = output.a
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-a567cfc7-c434-4ca1-a07a-e0f6d4eba809.sock
+# makefile (from 'Makefile', line 13)
+elf = $(NAME).elf
+# environment
+MANDATORY_PATH = /usr/share/gconf/ubuntu-xorg.mandatory.path
+# environment
+LC_NAME = en_US.UTF-8
+# environment
+LC_NUMERIC = en_US.UTF-8
+# environment
+VSCODE_CWD = /home/wataru/Documents/bitvisor
+# environment
+GHIDRA_LATEST = ghidra_10.1.2_PUBLIC
+# environment
+WINDOWPATH = 2
+# environment
+LC_ADDRESS = en_US.UTF-8
+# environment
+LIBVIRT_DEFAULT_URI = qemu:///system
+# environment
+WASMER_DIR = /home/wataru/.wasmer
+# default
+MAKE_COMMAND := make
+# environment
+QT_ACCESSIBILITY = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+CCACHE_DIR = /home/wataru/.ccache
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/wataru/Documents/bitvisor
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (from 'Makefile', line 24)
+subdirs- = storage storage_io vpn idman ip
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu-xorg:/usr/share/gnome:/home/wataru/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# makefile (from 'Makefile', line 2)
+V = 0
+# environment
+OLDPWD = /home/wataru/Documents
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# makefile (from 'Makefile.common', line 29)
+OPENSSL_VERSION = 1.0.0l
+# environment
+VSCODE_CODE_CACHE_PATH = /home/wataru/.config/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+LANG = C
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# environment
+GNOME_TERMINAL_SERVICE = :1.108
+# makefile
+MAKEFLAGS = pqrR
+# makefile (from 'Makefile', line 12)
+FORMAT = elf32-i386
+# makefile (from 'Makefile.common', line 24)
+depends = .depends
+# makefile
+CURDIR := /home/wataru/Documents/bitvisor
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# makefile (from 'Makefile.common', line 32)
+V-makeopt-0 := -s
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# makefile (from 'Makefile.common', line 8)
+SED = sed
+# makefile (from 'Makefile.common', line 33)
+V-info-1 := @:
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu-xorg:/etc/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XDG_SESSION_DESKTOP = ubuntu-xorg
+# makefile (from 'Makefile.common', line 1)
+MAKEFILE_LIST := Makefile Makefile.common
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 6357
+# environment
+SDKMAN_DIR = /home/wataru/.sdkman
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+TMUX = /tmp/tmux-1000/default,5299,4
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from 'Makefile.common', line 13)
+CONFIG = .config
+# environment
+SESSION_MANAGER = local/bel:@/tmp/.ICE-unix/3299,unix/bel:/tmp/.ICE-unix/3299
+# automatic
+*F = $(notdir $*)
+# makefile (from 'Makefile', line 14)
+map = $(NAME).map
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# makefile (from 'Makefile.common', line 34)
+V-makeopt := -s
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+XMODIFIERS = @im=ibus
+# makefile (from 'Makefile.common', line 25)
+objects = .objects
+# environment
+SHLVL = 1
+# environment
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/95ba9cad_31fb_499f_8c29_51905acefcb1
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /home/wataru/.wasmer/bin:/home/wataru/.rbenv/shims:/usr/bin/ccache:/home/wataru/.pyenv/bin:/home/wataru/.cargo/bin:/home/wataru/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/go/bin:/home/wataru/go/bin:/home/wataru/Android/Sdk/platform-tools:/home/wataru/jadx/build/jadx/bin:/home/wataru/lysithea:/home/wataru/.wasmer/globals/wapm_packages/.bin
+# default
+MAKEFILES := 
+# environment
+LC_MONETARY = en_US.UTF-8
+# automatic
+^F = $(notdir $^)
+# environment
+LC_TIME = en_US.UTF-8
+# makefile (from 'Makefile.common', line 20)
+defouto = $(dir)$(outo)
+# makefile (from 'Makefile.common', line 35)
+V-info :=  echo ' '
+# makefile (from 'Makefile', line 26)
+psubdirs-1 = process
+# environment
+ 
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = wataru
+# environment
+TERM_PROGRAM = tmux
+# makefile (from 'Makefile.common', line 9)
+SIZE = size
+# environment
+LC_TELEPHONE = en_US.UTF-8
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# makefile (from 'Makefile', line 15)
+lds = $(NAME).lds
+# automatic
+?F = $(notdir $?)
+# makefile (from 'Makefile', line 11)
+NAME = bitvisor
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# makefile (from 'Makefile', line 23)
+subdirs-1 = core drivers net
+# environment
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+# automatic
++F = $(notdir $+)
+# environment
+DESKTOP_SESSION = ubuntu-xorg
+# environment
+WASMER_CACHE_DIR = /home/wataru/.wasmer/cache
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+PYENV_ROOT = /home/wataru/.pyenv
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = wataru
+# makefile (from 'Makefile', line 25)
+asubdirs- = crypto
+# makefile (from 'Makefile.common', line 22)
+defoutp = $(dir)$(outp)
+# makefile (from 'Makefile', line 1)
+DIR = .
+# makefile
+.DEFAULT_GOAL := all
+# environment
+SYSTEMD_EXEC_PID = 3358
+# makefile (from 'Makefile.common', line 6)
+RM = rm -f
+# environment
+DISPLAY = :0
+# environment
+USER = wataru
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+DEFAULTS_PATH = /usr/share/gconf/ubuntu-xorg.default.path
+# default
+MAKE_VERSION := 4.3
+# environment
+LC_MEASUREMENT = en_US.UTF-8
+# environment
+USE_CCACHE = 1
+# environment
+_ = /usr/bin/code
+# environment
+LC_PAPER = en_US.UTF-8
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from 'Makefile.common', line 15)
+dir := 
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+COLORTERM = truecolor
+# environment
+XDG_SESSION_CLASS = user
+# environment
+ANDROID_SDK = /home/wataru/Android/Sdk
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/wataru
+# environment
+QT_IM_MODULE = ibus
+# makefile (from 'Makefile.common', line 26)
+boptions = .boptions
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-f401e96f-1.67.2-main.sock
+# environment
+TERM = xterm-256color
+# environment
+JYTHON_HOME = /home/wataru/jython
+# environment
+GHIDRA_INSTALL_DIR = /usr/local/ghidra_10.1.2_PUBLIC
+# makefile (from 'Makefile.common', line 18)
+outp = processes.o
+# environment
+IM_CONFIG_PHASE = 1
+# environment
+PAPERSIZE = letter
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+RBENV_SHELL = bash
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# makefile (from 'Makefile.common', line 21)
+defouta = $(dir)$(outa)
+# makefile (from 'Makefile.common', line 16)
+outo = output.o
+# environment
+VTE_VERSION = 6800
+# makefile (from 'Makefile.common', line 10)
+STRIP = strip
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# makefile (from 'Makefile', line 16)
+target = $(elf)
+# makefile (from 'Makefile.common', line 5)
+CC = cc
+# makefile (from 'Makefile.common', line 7)
+OBJCOPY = objcopy
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+TERM_PROGRAM_VERSION = 3.2a
+# makefile (from 'Makefile.common', line 23)
+flags = .flags
+# makefile (from 'Makefile', line 32)
+process-depends- = $(dir)crypto/$(outa_p) $(dir)idman/$(outo_p) $(dir)storage/$(outo_p) $(dir)storage_io/$(outo_p) $(dir)vpn/$(outo_p)
+# environment
+GDMSESSION = ubuntu-xorg
+# environment
+LC_IDENTIFICATION = en_US.UTF-8
+# variable set hash-table stats:
+# Load=165/1024=16%, Rehash=0, Collisions=40/274=15%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 66306, inode 45879483): 38 files, no impossibilities.
+
+# 38 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+bitvisor.lds:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean-all:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 49):
+	$(MAKE) $(V-makeopt-$(V)) -f Makefile.clean clean-dir DIR=$(DIR) V=$(V)
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-23 11:12:04.906754391
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+output.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean: clean-all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+defconfig:
+#  Implicit rule search has not been done.
+#  Last modified 2022-05-23 11:12:08.154775181
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 60):
+	cp defconfig.tmpl defconfig
+
+config: .config
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 53):
+	$(MAKE) -f Makefile.config config
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build-all: .config defconfig
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := build-all
+# automatic
+# * := 
+# automatic
+# < := .config
+# automatic
+# + := .config defconfig
+# automatic
+# % := 
+# automatic
+# ^ := .config defconfig
+# automatic
+# ? := .config defconfig
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=24/26=92%
+#  recipe to execute (from 'Makefile', line 42):
+	case "`$(SED) 1q $(DIR)/$(depends) 2>/dev/null`" in \
+	''): >> $(DIR)/$(depends);; esac
+	$(MAKE) $(V-makeopt-$(V)) -f Makefile.build build-dir DIR=$(DIR) V=$(V)
+	$(SIZE) $(dir)$(elf)
+
+all: build-all
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/18=0%
+
+.config: Makefile.config
+#  Implicit rule search has not been done.
+#  Last modified 2022-05-23 11:12:15.750823459
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 56):
+	: >> $(CONFIG)
+	$(MAKE) -f Makefile.config update-config
+
+# Not a target:
+Makefile.common:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-23 11:12:04.906754391
+#  File has been updated.
+#  Successfully updated.
+
+bitvisor.elf: output.o bitvisor.lds
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+ 
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 35):
+ 
+	$(V-info) LD $(dir)$(elf)
+	$(CC) $(LDFLAGS) -Wl,-T,$(dir)$(lds) -Wl,--cref \
+		-Wl,-Map,$(dir)$(map) -o $(dir)$(elf) $(defouto)
+	$(OBJCOPY) --output-format $(FORMAT) $(dir)$(elf)
+
+# Not a target:
+Makefile.config:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-23 11:12:04.906754391
+#  File has been updated.
+#  Successfully updated.
+
+process/:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: all clean build-all clean-all config
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+ 
+# Load=17/1024=2%, Rehash=0, Collisions=4/53=8%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 49 / storage = 432 B / avg = 8 B
+# current buf: size = 8162 B / used = 432 B / count = 49 / avg = 8 B
+
+# strcache performance: lookups = 91 / hit rate = 46%
+# hash-table stats:
+# Load=49/8192=1%, Rehash=0, Collisions=1/91=1%
+# Finished Make data base on Mon May 23 11:12:22 2022
+
+ 
